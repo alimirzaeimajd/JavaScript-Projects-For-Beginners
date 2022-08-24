@@ -1,0 +1,68 @@
+body{
+    background-color: #34ace0;
+    text-align: center;
+} 
+#title{
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aqua;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 3rem;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+/* button styles */
+#click{
+    color: #FF416C;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 6px 15px 6px 15px;
+    font-weight: bold;
+}
+#click:hover{
+    color: black;
+    background-color: #FF416C;
+    border-radius: 4px;
+    border: 2px solid #FF416C;
+    font-weight: bold;
+}
+#search{
+    margin-top: 5rem;
+}
+#input{
+    border-radius: 5px;
+    background-color: #dfe6e9;
+    border: 2px solid #dfe6e9;
+    padding: 5px;
+}
+#weather{
+    padding: 30px;
+    color: white;
+    background-color: #ff4757;
+    border-radius: 15px;
+    border: 2px solid #ff4757;
+    margin-top: 50px;
+    width: 600px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-weight: bolder;
+    display: none;
+}
+#weatherCity{
+    font-weight: bolder;
+}
+#Description{
+    float: left;
+}
+#Temperature{
+    float: right;
+}
+#Loading{
+    margin-top: 30px;
+}
