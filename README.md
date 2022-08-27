@@ -1,4 +1,4 @@
 # JavaScript Exercises
 ![WeatherApp](./chrome_HTezsokzrR.png)
-![LoginForm](./chrome_l7wvs55uLx.png)
+![LoginForm](./chrome_Z4kCMgOVQI.png)
 ![StopWatch](./chrome_TCQWfpIppv.png)
